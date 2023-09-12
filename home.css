@@ -5,6 +5,8 @@
     align-items: center;
     top:0px;
     margin-left: 60px;
+    overflow: hidden;
+    justify-content: flex-start;
 }
 
 /*Navigation Bar: Logo and Image */
@@ -64,15 +66,19 @@
     flex-direction: column;
     justify-content:start;
     align-items:center;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 h1
 {
     color:black;
     font-size: 3rem;
+    overflow: hidden;
 }
 
 p{
 font-size: 1.5rem;
 color: black;
+overflow: hidden;
 }
