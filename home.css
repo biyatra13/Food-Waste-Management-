@@ -1,0 +1,78 @@
+/* Navigation Bar */
+#navbar
+{
+    display: flex;
+    align-items: center;
+    top:0px;
+    margin-left: 60px;
+}
+
+/*Navigation Bar: Logo and Image */
+#logo
+{
+    margin: 2px 4px;
+}
+#logo img {
+    height: 50px;
+    width: 50px;
+    margin: 2px 4px;
+}
+
+
+/* Navigation:List Styling */
+#navbar ul{
+    display:flex;
+}
+
+#navbar::before{
+    content: "";
+    background-color:rgb(15, 11, 11);
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height:10%;
+    width:100%;
+    z-index:-1;
+    opacity:0.4;
+}
+#navbar ul li
+{
+    list-style:none;
+    font-size: 1.3rem;
+   
+}
+#navbar ul li a
+{
+    color:white;
+    display:block;
+    padding: 0px 24px;
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#navbar ul li a:hover
+{
+    color:black;
+    background-color:white;
+    border-radius:14px;
+}
+
+.home{
+    background: url("background.png") no-repeat center/cover;
+    width: 100%;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items:center;
+}
+
+h1
+{
+    color:black;
+    font-size: 3rem;
+}
+
+p{
+font-size: 1.5rem;
+color: black;
+}
